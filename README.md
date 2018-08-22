@@ -1,2 +1,2 @@
 # functions
-//How to use functions.
+How to use functions.
