@@ -1,0 +1,26 @@
+<html>
+<head>
+
+</head>
+<body>
+<script>
+
+  function pythag() {
+    //Get the 'a' value and 'b' value
+    var a = prompt("Need 'a' value");
+    var b = prompt("Need 'b' value");
+    //Square the 'a' and 'b'
+    var asq = a**2;
+    var bsq = b**2;
+    //Find sum to get csq
+    var csq = asq + bsq;
+    //Square root csq and save as c and fix decimal place to 3
+    var c = Math.sqrt(csq).toFixed(3);
+    //Tell user the answer
+    window.alert(c);
+  }
+
+</script>
+<button onclick="pythag()">Pythagorean Calculator</button>
+</body>
+</html>
